@@ -33,6 +33,6 @@ def get_shop_list_by_dishes(dishes, person_count):
                     shop_list[ingredient['ingredient_name']]['quantity'] += ingredient['quantity'] * person_count
     return shop_list
 # cook_book = read_recipes()
-get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
+# get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
 # pprint(cook_book,width=100)
 pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2),width=100)
